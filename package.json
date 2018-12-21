@@ -1,0 +1,33 @@
+{
+  "name": "react-electron-example",
+  "version": "1.0.0",
+  "description": "Use React in electron without having to run a development server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "buble src --output build",
+    "start": "npm run build && electron ."
+  },
+  "author": "Dean Brown",
+  "license": "ISC",
+  "keywords": [
+    "electron",
+    "electron-app",
+    "react",
+    "javascript",
+    "node",
+    "nodejs"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "buble": "^0.19.6",
+    "electron": "^4.0.0"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
